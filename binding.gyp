@@ -1,6 +1,7 @@
 {
   "targets": [
     {
+      "win_delay_load_hook": "true",
       "target_name": "sqlanywhere",
       "defines": [ '_SACAPI_VERSION=5', 'DRIVER_NAME=sqlanywhere' ],
       "sources": [ "src/sqlanywhere.cpp",
